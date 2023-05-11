@@ -1,0 +1,14 @@
+user management:
+------------------
+we need plugins
+s1=> rolebasedaccess plugin needed
+download it in "available plugins"  => "Role-based Authorization Strategy" -> (download without restart)
+--------
+s2=>  manage jenkins->Configure Global Security->Authorization->role based strategy->save.
+--------
+s3 => manage jenkins->manage and assign roles-> do required thinks and save
+
+
+task1: create an new project sample_test->create to users("user1" and "user 2" in gobal role of manage role) -> create "employee" in assign role and assign "user1" to it and create "tester" in assign role and assign "user2" to it-> save
+
+task2 : create a new repository project and add home.html in github
